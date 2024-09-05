@@ -14,10 +14,10 @@ export const Route = createRootRoute({
       }
       
       const sections: Section[] = [
-        { id: 1, name: "News" },
-        { id: 2, name: "Entertainment" },
-        { id: 3, name: "Life Style" },
-        { id: 4, name: "Finance" },
+        { id: 1, name: "Fiction" },
+        { id: 2, name: "Life Style" },
+        { id: 3, name: "News"},
+        { id: 4, name: "Entertainment" },
       ];
 
   return (

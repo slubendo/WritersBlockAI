@@ -13,7 +13,7 @@ function Section() {
       <div className="max-w-screen-xl mx-auto">
 
         <main className="mt-12">
-          <div className="flex sm:flex-wrap md:flex-nowrap space-x-0 md:space-x-6 mb-16">
+          <div className="flex sm:flex-wrap md:flex-nowrap space-x-0 md:space-x-6 mb-12">
 
             <div className="mb-4 lg:mb-0 p-4 lg:p-0 w-full md:w-4/7 relative rounded block">
               <img src="https://images.unsplash.com/photo-1427751840561-9852520f8ce8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60" className="rounded-md object-cover w-full h-64" alt="Main Post" />
@@ -26,7 +26,7 @@ function Section() {
                 decisively boy law she. Answer him easily are its barton little. Oh no though mother be things simple
                 itself. Oh be me, sure wise sons, no. Piqued ye of am spirit regret. Stimulated discretion impossible admiration in particular conviction up.
               </p>
-              <a href="#" className="inline-block px-6 py-3 mt-2 rounded-md bg-green-700 text-gray-100">
+              <a href="#" className="inline-block px-6 py-3 mt-2 rounded-md bg-indigo-600 text-gray-100">
                 Read more
               </a>
             </div>
@@ -91,7 +91,7 @@ function Section() {
           </div>
 
           {/* recent posts */}
-          <div className="flex mt-16 mb-4 px-4 lg:px-0 items-center justify-between">
+          <div className="flex mt-4 mb-4 px-4 lg:px-0 items-center justify-between">
             <h2 className="font-bold text-3xl">Latest news</h2>
             <a className="bg-gray-200 hover:bg-green-200 text-gray-800 px-3 py-1 rounded cursor-pointer">
               View all
