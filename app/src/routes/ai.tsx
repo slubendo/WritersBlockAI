@@ -6,10 +6,10 @@ export const Route = createFileRoute('/ai')({
 });
 function AI() {
   return (
-    <div className='min-h-svh max-w-screen-xl'>
+    <div className='min-h-svh max-w-screen-xl mt-10'>
           <div className="mb-4 md:mb-0 w-full max-w-screen-xl mx-auto relative" style={{ height: '20em' }}>
             <div className="absolute left-0 bottom-0 w-full h-full z-10" style={{ backgroundImage: 'linear-gradient(180deg, transparent, rgba(0, 0, 0, .7))' }}></div>
-            <img src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" className="absolute left-0 top-0 w-full h-full z-0 object-cover" alt="Background" />
+            <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/0*0giY2fUHot4OWk3W" className="absolute left-0 top-0 w-full h-full z-0 object-cover" alt="Background" />
             <div className="p-8 absolute bottom-0 left-0 z-20">
               <h2 className="text-6xl relative left-0 font-semibold text-gray-100 leading-tight">
                Writers Block AI

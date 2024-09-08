@@ -78,9 +78,24 @@ function Home() {
             </a>
           </div>
 
-          <div className="block lg:flex lg:space-x-2 px-2 lg:p-0 mt-10 mb-10">
+          <div className="block lg:flex lg:space-x-2 px-2 lg:p-0 mt-4 mb-10">
             {/* Post card start */}
             <div className="w-full lg:w-2/3">
+              <div className="flex flex-wrap items-center p-5 mb-4">
+                <p className="mt-0 text-center w-full  mx-24 border-b-2 border-white text-gray-700 font-medium text-3xl pb-2 mb-2">
+                Generate a unique writing prompt
+                </p>
+                <div className='flex justify-center w-full mt-1'>
+                  <button className="px-4 py-2 bg-indigo-600 text-gray-200 rounded capitalize tracking-wide mr-2">
+                    Generate
+                  </button>
+                  <button className="px-4 py-2 border-2 border-indigo-600 rounded capitalize tracking-wide">
+                    Start Writing
+                  </button>
+                </div> 
+                
+              </div>
+
               <a
                 className="block rounded w-full lg:flex mb-10"
                 href="#"
@@ -186,7 +201,7 @@ function Home() {
                   <li className="px-1 py-4 border-b border-t border-white hover:border-gray-200 transition duration-300">
                     <a href="#" className="flex items-center text-gray-600 cursor-pointer">
                       <span className="inline-block h-4 w-4 bg-green-300 mr-3"></span>
-                      Nutrition
+                      Fiction
                       <span className="text-gray-500 ml-auto">23 articles</span>
                       <i className='text-gray-500 bx bx-right-arrow-alt ml-1'></i>
                     </a>
@@ -194,7 +209,7 @@ function Home() {
                   <li className="px-1 py-4 border-b border-t border-white hover:border-gray-200 transition duration-300">
                     <a href="#" className="flex items-center text-gray-600 cursor-pointer">
                       <span className="inline-block h-4 w-4 bg-indigo-300 mr-3"></span>
-                      Food & Diet
+                      Life Style
                       <span className="text-gray-500 ml-auto">18 articles</span>
                       <i className='text-gray-500 bx bx-right-arrow-alt ml-1'></i>
                     </a>
@@ -202,7 +217,7 @@ function Home() {
                   <li className="px-1 py-4 border-b border-t border-white hover:border-gray-200 transition duration-300">
                     <a href="#" className="flex items-center text-gray-600 cursor-pointer">
                       <span className="inline-block h-4 w-4 bg-yellow-300 mr-3"></span>
-                      Workouts
+                      News
                       <span className="text-gray-500 ml-auto">34 articles</span>
                       <i className='text-gray-500 bx bx-right-arrow-alt ml-1'></i>
                     </a>
@@ -210,7 +225,7 @@ function Home() {
                   <li className="px-1 py-4 border-b border-t border-white hover:border-gray-200 transition duration-300">
                     <a href="#" className="flex items-center text-gray-600 cursor-pointer">
                       <span className="inline-block h-4 w-4 bg-blue-300 mr-3"></span>
-                      Immunity
+                      Entertaiment
                       <span className="text-gray-500 ml-auto">9 articles</span>
                       <i className='text-gray-500 bx bx-right-arrow-alt ml-1'></i>
                     </a>
