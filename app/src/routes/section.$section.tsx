@@ -92,7 +92,7 @@ function Section() {
 
           {/* recent posts */}
           <div className="flex mt-4 mb-4 px-4 lg:px-0 items-center justify-between">
-            <h2 className="font-bold text-3xl">Latest news</h2>
+            <h2 className="font-bold text-3xl">Latest</h2>
             <a className="bg-gray-200 hover:bg-green-200 text-gray-800 px-3 py-1 rounded cursor-pointer">
               View all
             </a>

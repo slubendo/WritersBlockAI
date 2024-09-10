@@ -6,7 +6,7 @@ export const Route = createFileRoute('/ai')({
 });
 function AI() {
   return (
-    <div className='min-h-svh max-w-screen-xl mt-10'>
+    <div className='min-h-svh max-w-screen-xl mt-6'>
           <div className="mb-4 md:mb-0 w-full max-w-screen-xl mx-auto relative" style={{ height: '20em' }}>
             <div className="absolute left-0 bottom-0 w-full h-full z-10" style={{ backgroundImage: 'linear-gradient(180deg, transparent, rgba(0, 0, 0, .7))' }}></div>
             <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/0*0giY2fUHot4OWk3W" className="absolute left-0 top-0 w-full h-full z-0 object-cover" alt="Background" />
@@ -121,9 +121,22 @@ function AI() {
 
           </div>
 
-          <p className='text-xl text-start  w-4/5 mx-auto mt-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolor dicta ratione pariatsunt, ex voluptatem totam incidunt eaque! Dolores, iusto nesciunt!</p>
+          <p className='text-xl text-start  w-4/5 mx-auto mt-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga dolor dicta ratione pariatsunt, ex voluptatem totam incidunt eaque! Dolores, iusto nesciunt!</p>
 
-          <form className='flex justify-center mt-10'>
+          <form className='flex flex-col justify-center mt-4'>
+              <input type="text" placeholder='Title' className='text-2xl w-4/5 mx-auto border rounded-xl py-2 px-4 border-slate-400 outline-none' />
+            <div className='flex justify-around w-4/5 mx-auto'>
+              <input id="fileInput" type="file" className="hidden" accept="image/*" />
+              <button id="customButton" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Choose Image
+              </button>
+              <select className='bg-white' name="section" id="section">
+                <option value="1">Fiction</option>
+                <option value="2">Life Style</option>
+                <option value="3">News</option>
+                <option value="4">Entertainment</option>
+              </select>
+            </div>
             <textarea name="" id="" placeholder='Start Writing' className='text-2xl resize-none w-4/5 min-h-screen mx-auto border rounded-xl py-2 px-4 border-slate-400 outline-none' cols={30} rows={10}></textarea>
           </form>
    
